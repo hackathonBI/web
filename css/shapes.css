@@ -1,0 +1,94 @@
+/*Teardrop*/
+.teardrop {
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	-webkit-transform:rotate(135deg);
+	background: #fff;
+}
+
+/* Chevron*/
+.chevron{
+	position:relative;
+	display:block;
+	height:70px;/*height should be double border*/
+}
+.chevron:before,
+.chevron:after{
+	position:absolute;
+	display:block;
+	content:"";
+	border:35px solid transparent;/*adjust size*/
+}
+
+.chevron-left:before{
+	right:0;
+	border-right-color:#e8e9eb;/*Chevron Color*/
+}
+
+.chevron-left:after{
+	right:-3px;/*adjust thickness*/
+	border-right-color:#fff;/*Match background colour*/
+}
+
+.chevron-right:before{
+	left:0;
+	border-left-color:#e8e9eb;/*Chevron Color*/
+}
+
+.chevron-right:after{
+	left:-3px;/*adjust thickness*/
+	border-left-color:#fff;/*Match background colour*/
+}
+
+/*Heart*/
+.heart {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 999;
+}
+.heart:before,
+.heart:after {
+	position: absolute;
+	content: "";
+	left: 12px;
+	top: 0;
+	width: 12px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 12px 12px 0 0;
+	border-radius: 12px 12px 0 0;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+.heart:after {
+	left: 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	transform-origin :100% 100%;
+}
+
+.teardrop .heart {
+	-webkit-transform:rotate(-135deg);
+	left: 13px;
+	top: 9px;
+}
