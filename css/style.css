@@ -34,7 +34,7 @@ h3 {
 	width: 1400px;
 	background:
 		url("/img/red-stripe.png") no-repeat right bottom,
-		url("/img/prague.png") no-repeat fixed center top;
+		url("/img/hradec.png") no-repeat fixed center top;
 	background-blend-mode: overlay;
 }
 
@@ -145,7 +145,7 @@ h3 {
 
 #circles .datetime {
 	font-weight: 300;
-	padding-top: 20px;
+	padding-top: 0px;
 }
 
 #content {
@@ -468,4 +468,3 @@ h4.panel-title {
 #boxSchedule .panel-body a {
 	font-family: 'Calibri', Helvetica, sans-serif;
 }
-
