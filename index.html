@@ -596,103 +596,45 @@
                 </div>
 			</div>
 
+
+			<!-- SCHEDULE -->
+
 			<div class="box" id="boxSchedule">
-				<h2>Schedule</h2>
+				<h2 id="schedule">Schedule</h2>
 
 				<h3>Friday</h3>
 
-					<div class="panel-group" id="accordion">
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody1">
-										<div class="schedule-time">
-											čas
-										</div>
-										<div class="schedule-item">
-											Track Business
-										</div>
-										<div class="schedule-item">
-											Track Hackathon
-										</div>
-										<div class="schedule-item">
-											DataGirls
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+					<table class="table table-responsive table-striped schedule-table">
 
+						<!-- hlavicka -->
+						<thead>
+							<tr>
+								<th>Čas</th>
+								<th>Business</th>
+								<th>Hackathon</th>
+								<th>DataGirls</th>
+							</tr>
+						</thead>
 
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody1">
-										<div class="schedule-time">
-											6:00pm
-										</div>
-										<div class="schedule-item">
-											Registration
-										</div>
-										<div class="schedule-item">
-											Registration
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
-                        <div class="panel">
-                            <div class="panel-heading panel-empty">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody1">
-                                        <div class="schedule-time">
-                                            6:30pm
-                                        </div>
-                                        <div class="schedule-item">
-                                            RedBull Wings Team
-                                        </div>
-                                        <div class="clear"></div>
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
-
-                        <div class="panel">
-                            <div class="panel-heading panel-empty">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody1">
-                                        <div class="schedule-time">
-                                            6:45pm
-                                        </div>
-                                        <div class="schedule-item">
-                                            Introduction
-                                        </div>
-                                        <div class="clear"></div>
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
-
-						<div class="panel">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody2">
-										<div class="schedule-time">
-											7:00pm
-										</div>
-										<div class="schedule-item">
-											Short Tech Pitches
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-
-							<div id="scheduleBody2" class="panel-collapse collapse">
-								<div class="panel-body">
-									<table>
+						<!-- telo tabulky -->
+						<tbody>
+							<tr>
+								<td>6:00pm</td>
+								<td>Registration</td>
+								<td>Registration</td>
+								<td>Registration</td>
+							</tr>
+							<tr>
+								<td>6:30pm</td>
+								<td>Introduction</td>
+								<td>Introduction</td>
+								<td>Introduction</td>
+							</tr>
+							<tr>
+								<td>7:00pm</td>
+								<td>
+									Short Tech Pitches <br>
+									<table class="inner">
 										<tr>
 											<td><a href="#tobolka">Jiří Tobolka</a></td>
 											<td>GoodData</td>
@@ -705,403 +647,241 @@
 											<td><a href="https://www.linkedin.com/in/scottvanboeyen">Scott Van Boeyen</a> (via YouTube)</td>
 											<td>Semantria.com</td>
 										</tr>
-                                        <tr>
-                                            <td><a href="#kordik">Pavel Kordík</a></td>
-                                            <td>RapidMiner</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="https://plus.google.com/+filiphracek">Filip Hráček</a></td>
-                                            <td>Google Cloud</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#kordik">Pavel Kordík</a></td>
-                                            <td>ModGen</td>
-                                        </tr>
-                                        <tr>
-                                            <td>no speaker</td>
-                                            <td>AWS Redshift</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#popelka">Ondřej Popelka</a></td>
-                                            <td>Vertica + R</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="https://www.linkedin.com/in/cisko">Francisco J Martin</a> (via YouTube)</td>
-                                            <td>BigML</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strike>Jakub Kubů</strike></td>
-                                            <td><strike>SAS</strike></td>
-                                        </tr>
-                                        <tr>
-                                            <td>no speaker</td>
-                                            <td>Chartio</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#pospisil">Jan Pospíšil</a></td>
-                                            <td>MS Azure ML</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#vesely">Martin Veselý</a></td>
-                                            <td>SAP HANA</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="https://www.linkedin.com/pub/alon-bartur/9/aa6/93b">Alon Bartur</a> (via YouTube)</td>
-                                            <td>Trifacta</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#estvanc">Lukáš Eštvanc</a></td>
-                                            <td>Inventoro</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#aliashkevich">Aliaksandr Aliashkevich</a></td>
-                                            <td>Shards.io</td>
-                                        </tr>
+										<tr>
+											<td><a href="#kordik">Pavel Kordík</a></td>
+											<td>RapidMiner</td>
+										</tr>
+										<tr>
+											<td><a href="https://plus.google.com/+filiphracek">Filip Hráček</a></td>
+											<td>Google Cloud</td>
+										</tr>
+										<tr>
+											<td><a href="#kordik">Pavel Kordík</a></td>
+											<td>ModGen</td>
+										</tr>
+										<tr>
+											<td>no speaker</td>
+											<td>AWS Redshift</td>
+										</tr>
+										<tr>
+											<td><a href="#popelka">Ondřej Popelka</a></td>
+											<td>Vertica + R</td>
+										</tr>
+										<tr>
+											<td><a href="https://www.linkedin.com/in/cisko">Francisco J Martin</a> (via YouTube)</td>
+											<td>BigML</td>
+										</tr>
+										<tr>
+											<td><strike>Jakub Kubů</strike></td>
+											<td><strike>SAS</strike></td>
+										</tr>
 									</table>
-								</div>
-							</div>
-						</div>
-
-                        <div class="panel">
-                            <div class="panel-heading panel-empty">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody1">
-                                        <div class="schedule-time">
-                                            8:30pm
-                                        </div>
-                                        <div class="schedule-item">
-                                            Dinner
-                                        </div>
-                                        <div class="clear"></div>
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
-
-						<div class="panel">
-							<div class="panel-heading">
-
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody3">
-										<div class="schedule-time">
-											9:00pm
-										</div>
-										<div class="schedule-item">
-											Data Pitches
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-
-							</div>
-
-							<div id="scheduleBody3" class="panel-collapse collapse">
-								<div class="panel-body">
-									<table>
-                                        <tr>
-                                            <td><a href="#martinec">Petr Martinec</a></td>
-                                            <td>Seznam</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#panes">Marek Paneš</a></td>
-                                            <td>CCS</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#cerveny">Miroslav Červený</a></td>
-                                            <td>Geewa</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#kucera">Eduard Kučera</a></td>
-                                            <td>Avast</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#vanecek">Pavel Vaněček</a></td>
-                                            <td>Česká Spořitelna</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#illich">Michal Illich</a></td>
-                                            <td>Flowreader</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#zandl">Patrick Zandl</a></td>
-                                            <td>Energomonitor</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#tusek">Karel Tušek</a></td>
-                                            <td>1188</td>
-                                        </tr>
+								</td>
+								<td>
+									<table class="inner">
+										<tr>
+											<td>no speaker</td>
+											<td>Chartio</td>
+										</tr>
+										<tr>
+											<td><a href="#pospisil">Jan Pospíšil</a></td>
+											<td>MS Azure ML</td>
+										</tr>
+										<tr>
+											<td><a href="#vesely">Martin Veselý</a></td>
+											<td>SAP HANA</td>
+										</tr>
+										<tr>
+											<td><a href="https://www.linkedin.com/pub/alon-bartur/9/aa6/93b">Alon Bartur</a> (via YouTube)</td>
+											<td>Trifacta</td>
+										</tr>
+										<tr>
+											<td><a href="#estvanc">Lukáš Eštvanc</a></td>
+											<td>Inventoro</td>
+										</tr>
+										<tr>
+											<td><a href="#aliashkevich">Aliaksandr Aliashkevich</a></td>
+											<td>Shards.io</td>
+										</tr>
 									</table>
-								</div>
-							</div>
-						</div>
+								</td>
+								<td> - </td>
+							</tr>
+							<tr>
+								<td>8:30pm</td>
+								<td>
+									Data Pitches <br>
+									<table class="inner">
+										<tr>
+											<td>no speaker</td>
+											<td>Chartio</td>
+										</tr>
+										<tr>
+											<td><a href="#pospisil">Jan Pospíšil</a></td>
+											<td>MS Azure ML</td>
+										</tr>
+										<tr>
+											<td><a href="#vesely">Martin Veselý</a></td>
+											<td>SAP HANA</td>
+										</tr>
+										<tr>
+											<td><a href="https://www.linkedin.com/pub/alon-bartur/9/aa6/93b">Alon Bartur</a> (via YouTube)</td>
+											<td>Trifacta</td>
+										</tr>
+										<tr>
+											<td><a href="#estvanc">Lukáš Eštvanc</a></td>
+											<td>Inventoro</td>
+										</tr>
+										<tr>
+											<td><a href="#aliashkevich">Aliaksandr Aliashkevich</a></td>
+											<td>Shards.io</td>
+										</tr>
+									</table>
+								</td>
+								<td>Dinner</td>
+								<td>Dinner</td>
+							</tr>
 
-                        <div class="panel">
-                            <div class="panel-heading panel-empty">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody1">
-                                        <div class="schedule-time">
-                                            10:30pm
-                                        </div>
-                                        <div class="schedule-item">
-                                            Team Assembly
-                                        </div>
-                                        <div class="clear"></div>
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
+							<tr>
+								<td>10:30pm</td>
+								<td>Team Assembly</td>
+								<td>Team Assembly</td>
+								<td>Team Assembly</td>
+							</tr>
 
-                        <div class="panel">
-                            <div class="panel-heading panel-empty">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody1">
-                                        <div class="schedule-time">
-                                            11:30pm
-                                        </div>
-                                        <div class="schedule-item">
-                                            Hacking
-                                        </div>
-                                        <div class="clear"></div>
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
+							<tr>
+								<td>11:30pm</td>
+								<td>Hacking</td>
+								<td>Hacking</td>
+								<td>Hacking</td>
+							</tr>
+						</tbody>
+					</table>
 
-					</div>
 
 				<h3>Saturday</h3>
 
-					<div class="panel-group" id="accordion2">
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion2" href="#">
-										<div class="schedule-time">
-											12:00am
-										</div>
-										<div class="schedule-item">
-											Hacking
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+					<table class="table table-responsive table-striped schedule-table">
 
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion2" href="#">
-										<div class="schedule-time">
-											9:00am
-										</div>
-										<div class="schedule-item">
-											Breakfast
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+						<!-- hlavicka -->
+						<thead>
+						<tr>
+							<th>Čas</th>
+							<th>Business</th>
+							<th>Hackathon</th>
+							<th>DataGirls</th>
+						</tr>
+						</thead>
 
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion2" href="#">
-										<div class="schedule-time">
-											9:30am
-										</div>
-										<div class="schedule-item">
-											Hacking
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+						<!-- telo tabulky -->
+						<tbody>
+						<tr>
+							<td>9:00am</td>
+							<td>Breakfast</td>
+							<td>Breakfast</td>
+							<td>Breakfast</td>
+						</tr>
+						<tr>
+							<td>9:30am</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+						</tr>
+						<tr>
+							<td>1:00pm</td>
+							<td>
+								Lunch <br>
+								<table class="inner">
+									<tr>
+										<td><a href="">Catering ...</a></td>
+										<td>Something</td>
+									</tr>
+								</table>
+							</td>
+							<td> - </td>
+							<td> - </td>
+						</tr>
+						<tr>
+							<td>1:30pm</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+						</tr>
 
-                        <div class="panel">
-                            <div class="panel-heading">
+						<tr>
+							<td>7:00pm</td>
+							<td>Dinner</td>
+							<td>Dinner</td>
+							<td>Dinner</td>
+						</tr>
 
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#scheduleBody4">
-                                        <div class="schedule-time">
-                                            1:00pm
-                                        </div>
-                                        <div class="schedule-item">
-                                            Lunch
-                                        </div>
-                                        <div class="clear"></div>
-                                    </a>
-                                </h4>
-
-                            </div>
-
-                            <div id="scheduleBody4" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <table>
-                                        <tr>
-                                            <td>Catering</td>
-                                            <td>TBD</td>
-                                        </tr>
-                                        <tr>
-                                            <td><a href="#hodinka">Michal Hodinka</a></td>
-                                            <td><a href="http://youtu.be/FbDUtBbMerg?list=FLYnVzhxUcYkp-euZEroOR8w">Jamón Serrano Gran Reserva</a></td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion2" href="#">
-										<div class="schedule-time">
-											1:30pm
-										</div>
-										<div class="schedule-item">
-											Hacking
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
-
-                        <div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion2" href="#">
-										<div class="schedule-time">
-											7:00pm
-										</div>
-										<div class="schedule-item">
-											Dinner
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
-                        <div class="panel">
-                            <div class="panel-heading panel-empty">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion2" href="#">
-                                        <div class="schedule-time">
-                                            7:30pm
-                                        </div>
-                                        <div class="schedule-item">
-                                            Hacking
-                                        </div>
-                                        <div class="clear"></div>
-                                    </a>
-                                </h4>
-                            </div>
-                        </div>
-
-					</div>
+						<tr>
+							<td>7:30pm</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+						</tr>
+						</tbody>
+					</table>
 
 				<h3>Sunday</h3>
 
-					<div class="panel-group" id="accordion3">
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion3" href="#">
-										<div class="schedule-time">
-											12:00am
-										</div>
-										<div class="schedule-item">
-											Hacking
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+					<table class="table table-responsive table-striped schedule-table">
 
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion3" href="#">
-										<div class="schedule-time">
-											9:00am
-										</div>
-										<div class="schedule-item">
-											Breakfast
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+						<!-- hlavicka -->
+						<thead>
+						<tr>
+							<th>Čas</th>
+							<th>Business</th>
+							<th>Hackathon</th>
+							<th>DataGirls</th>
+						</tr>
+						</thead>
 
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion3" href="#">
-										<div class="schedule-time">
-											9:30am
-										</div>
-										<div class="schedule-item">
-											Hacking
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+						<!-- telo tabulky -->
+						<tbody>
+						<tr>
+							<td>9:00am</td>
+							<td>Breakfast</td>
+							<td>Breakfast</td>
+							<td>Breakfast</td>
+						</tr>
+						<tr>
+							<td>9:30am</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+						</tr>
+						<tr>
+							<td>1:00pm</td>
+							<td>
+								Lunch <br>
+								<table class="inner">
+									<tr>
+										<td><a href="">Catering ...</a></td>
+										<td>Something</td>
+									</tr>
+								</table>
+							</td>
+							<td> - </td>
+							<td> - </td>
+						</tr>
+						<tr>
+							<td>1:30pm</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+							<td>Hacking</td>
+						</tr>
 
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion3" href="#">
-										<div class="schedule-time">
-											1:00pm
-										</div>
-										<div class="schedule-item">
-											Lunch
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
+						<tr>
+							<td>3:30pm</td>
+							<td>Presentations</td>
+							<td>Presentations</td>
+							<td>Presentations</td>
+						</tr>
+						</tbody>
+					</table>
 
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion3" href="#">
-										<div class="schedule-time">
-											1:30pm
-										</div>
-										<div class="schedule-item">
-											Hacking
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
-
-						<div class="panel">
-							<div class="panel-heading panel-empty">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion3" href="#">
-										<div class="schedule-time">
-											3:30pm
-										</div>
-										<div class="schedule-item">
-											Presentations
-										</div>
-										<div class="clear"></div>
-									</a>
-								</h4>
-							</div>
-						</div>
-					</div>
 			</div>
 
 			<div class="box orange">

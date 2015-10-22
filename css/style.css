@@ -468,3 +468,29 @@ h4.panel-title {
 #boxSchedule .panel-body a {
 	font-family: 'Calibri', Helvetica, sans-serif;
 }
+
+.schedule-table {
+	margin: 1em 0 4em;
+}
+
+.schedule-table th {
+	font-weight: 100;
+	font-size: 22px;
+}
+
+.schedule-table td {
+	font-size: 16px;
+	text-align: left;
+	color: #333;
+	font-weight: 400;
+}
+
+.schedule-table table.inner {
+	margin: 1em 0;
+}
+
+table.inner td {
+	color: #84878e;
+	font-weight: 300;
+}
+
