@@ -89,6 +89,14 @@ h3 {
 	background: url("/img/netmail.png") no-repeat right top;
 }
 
+#logos .sporitelna {
+	text-indent: -9999px;
+	background: url("/img/ceska-sporitelna.png") no-repeat right top;
+	width: 130px;
+	height: 56px;
+	margin-top: -12px;
+}
+
 #logos .ampersand {
 	text-align: center;
 	padding: 5px;
@@ -130,7 +138,7 @@ h3 {
 	background: url("/img/circles.png") no-repeat right top;
 	width: 242px;
 	height: 270px;
-	padding-top: 60px;
+	padding-top: 50px;
 	margin-top: 50px;
 	text-align: center;
 	font-size: 30px;
